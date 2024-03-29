@@ -1,0 +1,22 @@
+$orange: #fe6a00;
+
+.wp-block-tw2113-pirate-latest-book {
+  .latest-wrapper {
+    display: flex;
+    .book-image img {
+      width: 90%;
+    }
+    .book-image,
+    .book-details {
+      width: 50%;
+    }
+  }
+  .wrapper {
+    .book-divider {
+      background-color: $orange;
+    }
+    &:last-child .book-divider {
+      background-color: transparent;
+    }
+  }
+}
